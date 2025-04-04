@@ -3,111 +3,87 @@ import { Button } from './ui/button'
 const bikes = [
   {
     id: 1,
-    name: "Royal Enfield Classic 350",
-    category: "Cruiser",
-    image: "https://imgd.aeplcdn.com/1056x594/n/cw/ec/130591/classic-350-right-front-three-quarter-2.jpeg",
-    price: {
-      hourly: 500,
-      daily: 2000,
-      weekly: 10000
-    },
+    name: 'Royal Enfield Classic 350',
+    category: 'Cruiser',
+    image: 'https://apnamechanic.com/blog/wp-content/uploads/2022/06/bullet-service-online-1024x683-1.jpg',
+    price: 1500,
     specs: {
-      engine: "350cc",
-      mileage: "35 kmpl",
-      fuel: "Petrol",
-      transmission: "Manual"
+      engine: '349cc',
+      power: '20.2 bhp',
+      mileage: '35 kmpl',
+      fuel: 'Petrol'
     },
-    description: "Iconic Indian cruiser bike known for its thumping sound and comfortable ride."
+    description: 'The iconic Royal Enfield Classic 350 with its timeless design and thumping engine sound.'
   },
   {
     id: 2,
-    name: "Bajaj Pulsar NS200",
-    category: "Sports",
-    image: "https://imgd.aeplcdn.com/1056x594/n/cw/ec/130591/classic-350-right-front-three-quarter-2.jpeg",
-    price: {
-      hourly: 400,
-      daily: 1500,
-      weekly: 7500
-    },
+    name: 'Bajaj Pulsar NS200',
+    category: 'Sports',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/1/versions/bajaj-pulsar-220-standard1724756298897.jpg?q=80',
+    price: 1200,
     specs: {
-      engine: "200cc",
-      mileage: "40 kmpl",
-      fuel: "Petrol",
-      transmission: "Manual"
+      engine: '199.5cc',
+      power: '24.5 bhp',
+      mileage: '40 kmpl',
+      fuel: 'Petrol'
     },
-    description: "Powerful sports bike with aggressive styling and excellent performance."
+    description: 'A perfect blend of performance and style, the Pulsar NS200 is a favorite among young riders.'
   },
   {
     id: 3,
-    name: "TVS Apache RTR 160",
-    category: "Street",
-    image: "https://imgd.aeplcdn.com/1056x594/n/cw/ec/130591/classic-350-right-front-three-quarter-2.jpeg",
-    price: {
-      hourly: 300,
-      daily: 1200,
-      weekly: 6000
-    },
+    name: 'TVS Apache RTR 160',
+    category: 'Sports',
+    image: 'https://cdn.bikedekho.com/processedimages/tvs/apache-160/650X420/apache-1606319c53d7f639.jpg?imwidth=400&impolicy=resize',
+    price: 1000,
     specs: {
-      engine: "160cc",
-      mileage: "45 kmpl",
-      fuel: "Petrol",
-      transmission: "Manual"
+      engine: '159.7cc',
+      power: '16.04 bhp',
+      mileage: '45 kmpl',
+      fuel: 'Petrol'
     },
-    description: "Sporty street bike with excellent handling and fuel efficiency."
+    description: 'The TVS Apache RTR 160 offers a perfect balance of performance and fuel efficiency.'
   },
   {
     id: 4,
-    name: "Hero Splendor Plus",
-    category: "Commuter",
-    image: "https://imgd.aeplcdn.com/1056x594/n/cw/ec/130591/classic-350-right-front-three-quarter-2.jpeg",
-    price: {
-      hourly: 200,
-      daily: 800,
-      weekly: 4000
-    },
+    name: 'Hero Splendor Plus',
+    category: 'Commuter',
+    image: 'https://www.bajajmall.in/emistore/media/catalog/product/h/e/hero_splendor_plus_xtec_sparkling_beta_blue_1_2_4.jpeg',
+    price: 800,
     specs: {
-      engine: "97.2cc",
-      mileage: "80 kmpl",
-      fuel: "Petrol",
-      transmission: "Manual"
+      engine: '97.2cc',
+      power: '8.02 bhp',
+      mileage: '80 kmpl',
+      fuel: 'Petrol'
     },
-    description: "India's most trusted commuter bike with excellent fuel efficiency."
+    description: 'India\'s most trusted commuter bike, known for its reliability and fuel efficiency.'
   },
   {
     id: 5,
-    name: "KTM Duke 390",
-    category: "Adventure",
-    image: "https://imgd.aeplcdn.com/1056x594/n/cw/ec/130591/classic-350-right-front-three-quarter-2.jpeg",
-    price: {
-      hourly: 600,
-      daily: 2500,
-      weekly: 12000
-    },
+    name: 'KTM Duke 390',
+    category: 'Sports',
+    image: 'https://imgd.aeplcdn.com/227x128/n/cw/ec/129743/duke-200-right-front-three-quarter-2.jpeg?isig=0&q=80',
+    price: 2000,
     specs: {
-      engine: "373cc",
-      mileage: "30 kmpl",
-      fuel: "Petrol",
-      transmission: "Manual"
+      engine: '373.2cc',
+      power: '43.5 bhp',
+      mileage: '30 kmpl',
+      fuel: 'Petrol'
     },
-    description: "High-performance adventure bike perfect for long rides and touring."
+    description: 'The KTM Duke 390 is a performance-oriented bike with aggressive styling and powerful engine.'
   },
   {
     id: 6,
-    name: "Honda Activa 6G",
-    category: "Scooter",
-    image: "https://imgd.aeplcdn.com/1056x594/n/cw/ec/130591/classic-350-right-front-three-quarter-2.jpeg",
-    price: {
-      hourly: 150,
-      daily: 600,
-      weekly: 3000
-    },
+    name: 'Honda Activa 6G',
+    category: 'Scooter',
+    image: 'https://imgd.aeplcdn.com/664x374/n/bw/models/colors/honda-select-model-black-1674535477895.png?q=80',
+    price: 700,
     specs: {
-      engine: "109.51cc",
-      mileage: "60 kmpl",
-      fuel: "Petrol",
-      transmission: "Automatic"
+      engine: '109.51cc',
+      power: '7.79 bhp',
+      mileage: '45 kmpl',
+      fuel: 'Petrol'
     },
-    description: "India's most popular scooter with smooth ride and great mileage."
+    description: 'India\'s most popular scooter, known for its comfort, reliability, and fuel efficiency.'
   }
 ];
 
