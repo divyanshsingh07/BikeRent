@@ -6,7 +6,11 @@ const bikes = [
     name: 'Royal Enfield Classic 350',
     category: 'Cruiser',
     image: 'https://apnamechanic.com/blog/wp-content/uploads/2022/06/bullet-service-online-1024x683-1.jpg',
-    price: 1500,
+    price: {
+      hourly: 100,
+      daily: 1000,
+      weekly: 3000
+    },
     specs: {
       engine: '349cc',
       power: '20.2 bhp',
@@ -20,7 +24,11 @@ const bikes = [
     name: 'Bajaj Pulsar NS200',
     category: 'Sports',
     image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/1/versions/bajaj-pulsar-220-standard1724756298897.jpg?q=80',
-    price: 1200,
+    price: {
+      hourly: 100,
+      daily: 1000,
+      weekly: 3000
+    },
     specs: {
       engine: '199.5cc',
       power: '24.5 bhp',
@@ -34,7 +42,11 @@ const bikes = [
     name: 'TVS Apache RTR 160',
     category: 'Sports',
     image: 'https://cdn.bikedekho.com/processedimages/tvs/apache-160/650X420/apache-1606319c53d7f639.jpg?imwidth=400&impolicy=resize',
-    price: 1000,
+    price: {
+      hourly: 100,
+      daily: 1000,
+      weekly: 3000
+    },
     specs: {
       engine: '159.7cc',
       power: '16.04 bhp',
@@ -48,7 +60,11 @@ const bikes = [
     name: 'Hero Splendor Plus',
     category: 'Commuter',
     image: 'https://www.bajajmall.in/emistore/media/catalog/product/h/e/hero_splendor_plus_xtec_sparkling_beta_blue_1_2_4.jpeg',
-    price: 800,
+    price: {
+      hourly: 100,
+      daily: 1000,
+      weekly: 3000
+    },
     specs: {
       engine: '97.2cc',
       power: '8.02 bhp',
@@ -62,7 +78,11 @@ const bikes = [
     name: 'KTM Duke 390',
     category: 'Sports',
     image: 'https://imgd.aeplcdn.com/227x128/n/cw/ec/129743/duke-200-right-front-three-quarter-2.jpeg?isig=0&q=80',
-    price: 2000,
+    price: {
+      hourly: 100,
+      daily: 1000,
+      weekly: 3000
+    },
     specs: {
       engine: '373.2cc',
       power: '43.5 bhp',
@@ -76,7 +96,11 @@ const bikes = [
     name: 'Honda Activa 6G',
     category: 'Scooter',
     image: 'https://imgd.aeplcdn.com/664x374/n/bw/models/colors/honda-select-model-black-1674535477895.png?q=80',
-    price: 700,
+    price: {
+      hourly: 100,
+      daily: 1000,
+      weekly: 3000
+    },
     specs: {
       engine: '109.51cc',
       power: '7.79 bhp',
